@@ -21,10 +21,15 @@
             let resta = producto - 4;
             console.log(parseInt(resta));
 
-            alert("PERFECTO, POR ULTIMO DIVIDELO ENTRE 2 ");
+            alert("PERFECTO, DIVIDELO ENTRE 2 ");
             let division = resta/2;
             console.log(parseInt(division));
             alert("GENIAL, TU RESULTADO ES: "+ division);
+
+            alert("POR ULTIMO, RESTALE EL NUMERO QUE PENSASTE");
+            let valor = division - x;
+            console.log(parseInt(valor));
+            alert("GENIAL, TU RESULTADO ES: "+ valor);
         }
         else 
         {
