@@ -1,0 +1,15 @@
+Storage: API de almacenamiento Web, sin necesidad de realizar ningun conexion con el servidor.
+
+localStorage: No se van a poder eliminar los datos, a pesar de cerrar el navegador. No almacenar info sensible, ej. datos de login
+sessionStorage: Datos temporal que se elimina al cerrar el navegador.
+
+Palabras Claves:
+
+set -> Guardar (setear)
+get -> obtener
+
+Los parametros se dividen en coma ej. setItem('parametro 1', 'parametro2');
+
+Un arrays almacena un conjutno de datos, pero lo hace en una variable, es decir un espacio de memoria.
+
+JavaScript Object Notation (JSON) es un formato basado e texto plano.
